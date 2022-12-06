@@ -14,6 +14,11 @@
 		429E931F2918595D00068564 /* timer_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E931E2918595D00068564 /* timer_appTests.swift */; };
 		429E93292918595D00068564 /* timer_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E93282918595D00068564 /* timer_appUITests.swift */; };
 		429E932B2918595D00068564 /* timer_appUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 429E932A2918595D00068564 /* timer_appUITestsLaunchTests.swift */; };
+		42AAA6ED29185BCB006E8825 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AAA6EC29185BCB006E8825 /* TimerView.swift */; };
+		42AAA6F129185BE3006E8825 /* Wake-upView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AAA6EE29185BE2006E8825 /* Wake-upView.swift */; };
+		42AAA6F229185BE3006E8825 /* World-clockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AAA6EF29185BE2006E8825 /* World-clockView.swift */; };
+		42AAA6F329185BE3006E8825 /* TimingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42AAA6F029185BE3006E8825 /* TimingView.swift */; };
+		42CC2678291AA0E1002936C3 /* Stopwatch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42CC2677291AA0E1002936C3 /* Stopwatch.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +49,11 @@
 		429E93242918595D00068564 /* timer-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "timer-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		429E93282918595D00068564 /* timer_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer_appUITests.swift; sourceTree = "<group>"; };
 		429E932A2918595D00068564 /* timer_appUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = timer_appUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		42AAA6EC29185BCB006E8825 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		42AAA6EE29185BE2006E8825 /* Wake-upView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Wake-upView.swift"; sourceTree = "<group>"; };
+		42AAA6EF29185BE2006E8825 /* World-clockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "World-clockView.swift"; sourceTree = "<group>"; };
+		42AAA6F029185BE3006E8825 /* TimingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimingView.swift; sourceTree = "<group>"; };
+		42CC2677291AA0E1002936C3 /* Stopwatch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stopwatch.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +105,12 @@
 			isa = PBXGroup;
 			children = (
 				429E930D2918595B00068564 /* timer_appApp.swift */,
+				42CC2677291AA0E1002936C3 /* Stopwatch.swift */,
+				42AAA6EC29185BCB006E8825 /* TimerView.swift */,
 				429E930F2918595B00068564 /* ContentView.swift */,
+				42AAA6F029185BE3006E8825 /* TimingView.swift */,
+				42AAA6EE29185BE2006E8825 /* Wake-upView.swift */,
+				42AAA6EF29185BE2006E8825 /* World-clockView.swift */,
 				429E93112918595D00068564 /* Assets.xcassets */,
 				429E93132918595D00068564 /* Preview Content */,
 			);
@@ -257,7 +272,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42AAA6ED29185BCB006E8825 /* TimerView.swift in Sources */,
+				42AAA6F129185BE3006E8825 /* Wake-upView.swift in Sources */,
 				429E93102918595B00068564 /* ContentView.swift in Sources */,
+				42AAA6F229185BE3006E8825 /* World-clockView.swift in Sources */,
+				42AAA6F329185BE3006E8825 /* TimingView.swift in Sources */,
+				42CC2678291AA0E1002936C3 /* Stopwatch.swift in Sources */,
 				429E930E2918595B00068564 /* timer_appApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
